@@ -1,0 +1,4 @@
+Options +FollowSymlinks
+RewriteEngine on
+RewriteRule ^catalog$  controller/catalog.controller.php [L]
+RewriteRule ^list$  controller/list.controller.php [L]
